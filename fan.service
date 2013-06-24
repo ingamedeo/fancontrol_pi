@@ -1,0 +1,10 @@
+[Unit]
+Description=button
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python2 /home/ingamedeo/fan.py
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target
