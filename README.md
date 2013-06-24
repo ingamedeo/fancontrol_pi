@@ -1,4 +1,3 @@
-
          -----------------------------------------------------
            Fan Control Script - Raspberry Pi - By ingamedeo
 
@@ -22,3 +21,5 @@
  Enjoy! :D
 
  For any questions / suggestions send an e-mail to: <ingamedeo[at]gmail[dot]com>
+
+ EDIT: The path should be changed in fan.service too!! (This should point to fan.py script)
